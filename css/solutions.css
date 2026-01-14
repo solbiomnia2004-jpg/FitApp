@@ -47,3 +47,26 @@
     font-size: 70%;
     
 }
+ .quote-box{
+    position:relative;
+    padding:20px;
+
+ }
+
+ .quote-box::before {
+    position: absolute;
+    content:'"';
+    top:0;
+    left:0;
+    font-size:50px;
+    color:rgba(255, 255, 255, 0.321);
+    
+ }
+ .quote-box:after {
+    position: absolute;
+    content:'"';
+    bottom:0;
+    right:10px;
+    font-size:50px;
+    color:rgba(255, 255, 255, 0.321);
+ }
