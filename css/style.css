@@ -45,10 +45,7 @@ body {
 	text-align: center;
 }
 
-.stats-container > .stats-grid (3) {
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color:white;
-}
+
 
 .stat-number {
 	font-size: 2.5rem;
@@ -79,9 +76,7 @@ body {
 	position: relative;
 	
 }
-.workout-plan:hover {
-		color:red;
-	}
+
 
 .workout-plan h3 {
 	color: #2c3e50;
@@ -277,4 +272,3 @@ body {
   font-size:30px;
 }
 
-article.workout-plan p.hover {color:red;}

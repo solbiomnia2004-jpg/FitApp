@@ -1,3 +1,7 @@
+.stats-grid:nth-of-type(1):before {
+    content:"🔥";
+    font-size: 30px;
+}
 .stats-container .stats-grid:nth-child(3) {
 	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
@@ -20,4 +24,12 @@
 .exercise-item:nth-of-type(4){
      border-left: 5px solid rgb(87, 179, 108) ;
      background-color: rgba(163, 244, 157, 0.138);
+}
+.exercise-item:nth-of-type(2):before {
+    content:"⚡";
+    font-size: 15px;
+}
+.exercise-item:nth-of-type(4):before {
+    content:"⚡";
+    font-size: 15px;
 }
